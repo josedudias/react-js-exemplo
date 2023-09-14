@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "123"
+    },
+    {
+      "id": 3,
+      "username": "dfpires",
+      "password": "123"
+    }
+  ],
+  "products": [
+    {
+      "name": "xxx2",
+      "description": "xxx2",
+      "price": 12,
+      "qty": "1",
+      "id": 1
+    },
+    {
+      "name": "yyy3",
+      "description": "yyy3",
+      "price": 23,
+      "qty": 223,
+      "id": 2
+    },
+    {
+      "name": "zzz",
+      "description": "zzz",
+      "price": "10",
+      "qty": "100",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "www2",
+      "description": "wwww2",
+      "price": "220",
+      "qty": "22"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "qty": 10,
+      "price": 1,
+      "type": "buy"
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "qty": 1,
+      "price": 2,
+      "type": "sell"
+    },
+    {
+      "product_id": 2,
+      "qty": 10,
+      "price": 2,
+      "type": "buy",
+      "id": 3
+    },
+    {
+      "product_id": 2,
+      "qty": 2,
+      "price": 2,
+      "type": "buy",
+      "id": 4
+    },
+    {
+      "product_id": 3,
+      "qty": 50,
+      "price": 10,
+      "type": "sell",
+      "id": 5
+    }
+  ]
+}
